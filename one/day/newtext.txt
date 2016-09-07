@@ -1,3 +1,9 @@
 foo
-dsfns
+dsfns343
 sdfsdfsd
+
+
+function foo()
+{
+  return false;
+}
