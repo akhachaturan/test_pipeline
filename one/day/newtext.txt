@@ -6,3 +6,8 @@ function foo()
 {
   return false;
 }
+
+
+function bar()
+{
+}
