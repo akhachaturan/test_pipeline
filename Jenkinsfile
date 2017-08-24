@@ -1,4 +1,7 @@
-node {
-  stage 'Stage 1'
-    echo 'Hello World!' 
-}
+pipeline {
+    agent 'North_Star_App_Node'
+    stages {
+      stage('Build') {
+        echo 'Hello World!'
+      }
+    }
