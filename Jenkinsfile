@@ -1,9 +1,4 @@
-pipeline {
-    stages {
-        stage('build') {
-            steps {
-                sh 'python --version'
-            }
-        }
-    }
+node {
+  stage 'Stage 1'
+    echo 'Hello World!' 
 }
